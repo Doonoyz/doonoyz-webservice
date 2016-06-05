@@ -1,0 +1,4 @@
+RewriteEngine on
+
+# use the default front web controller
+RewriteRule !(.*)\..+$ index.php [QSA,L]
